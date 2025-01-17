@@ -1,0 +1,671 @@
+body {
+    margin: 0;
+    padding: 0;
+   font-family: "Amatic SC";
+    font-size: 30px;
+    text-align: center;
+    background-color: #000000;
+    
+
+}
+
+.fondo0 {
+    background-color: #000000;  
+    height: 40px;
+}
+
+.fondo1 {
+    background-color: #000000;  
+    height: 90px;
+}
+
+.logo img {
+    transition: all 1s;
+    transform: translate(-1500px, 0);
+}
+
+.logo.visible img {
+    transform: translate(0px, 0);
+    width: 100%;
+}
+
+
+.fondo-principal {
+    background-color: #000000;
+}
+
+.fondo-poseidon1 {
+    background-color: #e9725d;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-poseidon2 {
+    background-color: #665383;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-zeus1 {
+    background-color: #97c6db;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-zeus2 {
+    background-color: #dfe4b6;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-hades1 {
+    background-color: #6cb693;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-hades2 {
+    background-color: #67468d;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-demeter1 {
+    background-color: #58e65f;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-demeter2 {
+    background-color: #f3daba;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-hestia1 {
+    background-color: #dd7b3a;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-hestia2 {
+    background-color: #e7cc72;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-hera1 {
+    background-color: #6cb693;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-hera2 {
+    background-color: #67468d;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+.fondo-final {
+    background-color: #a7a5a5;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 10px;
+}
+
+h1 {
+    color: #fcfafa;
+}
+p {
+color: #fcfafa;
+text-align: center;
+}
+
+
+.titulo {
+    height: 190px;
+    transition: 1s;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: "Barriecito";
+    font-size: 120px;
+}
+
+.titulo.visible {
+color: #fcfafa;
+}
+
+
+
+.texto {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 90px;
+}
+
+.texto.visible {
+color: #fcfafa;
+}
+
+.texto-poseidon {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 150px;
+}
+
+.texto-poseidon.visible {
+color: #fcfafa;
+}
+
+.texto-zeus {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 190px;
+}
+
+.texto-zeus.visible {
+color: #fcfafa;
+}
+
+.texto-hades {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 150px;
+}
+
+.texto-hades.visible {
+color: #fcfafa;
+}
+
+.falsa-despedida {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    
+}
+
+.falsa-despedida.visible {
+color: #fcfafa;
+}
+
+.falsa-despedida2 {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 100px;
+}
+
+.falsa-despedida2.visible {
+color: #fcfafa;
+}
+
+
+
+.texto-demeter {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 150px;
+}
+
+.texto-demeter.visible {
+color: #fcfafa;
+}
+
+.texto-hestia {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 150px;
+}
+
+.texto-hestia.visible {
+color: #fcfafa;
+}
+
+.texto-hera {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 150px;
+}
+
+.texto-hera.visible {
+color: #fcfafa;
+}
+
+footer {
+    
+    height: 400px;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;  
+    margin: 340;
+}
+
+footer img{
+    width: 100%;
+}
+
+
+
+.texto-final {
+    transition: 2s;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 150px;
+    height: 100px;
+}
+
+.texto-final.visible {
+    color: #fcfafa;
+    }
+
+    .texto-final2 {
+        transition: 2s;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        height: 150px;
+        height: 120px;
+    }
+    
+    .texto-final2.visible {
+        color: #fcfafa;
+        }    
+    
+        
+
+.dibujos-kawai {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    max-width: 700px;
+    margin: 0 auto;
+     
+}
+
+.dibujos-kawai img {
+    width: 310px;
+    
+}
+
+.dibujos-kawai-finales {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.dibujo-Poseidon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    
+}
+
+.dibujo-Poseidon:hover {
+    transform: translateX(20px); 
+}
+
+.dibujo-Zeus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.dibujo-Zeus:hover {
+    transform: translateY(-20px);
+}
+
+.dibujo-Hades {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.dibujo-Hades:hover {
+    transform: translate(15px, -15px);  
+}
+
+.dibujos-pascu {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    margin: 0 auto;
+}
+
+.dibujo-pascu.visible {
+    transform: translatex(80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    margin: 10;
+}
+
+.dibujo-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    margin: 0 auto;
+}
+
+.dibujo-logo.visible {
+    transform: translatey(-100px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    margin: 10;
+}
+
+
+.dibujo-rodri {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    margin: 0 auto;}
+    
+
+
+.dibujo-rodri.visible {
+    transform: translatex(-100px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    margin: 10;
+}
+
+main {
+    overflow: hidden;
+}
+
+.contenedor {
+    width: 60%;
+    min-width: 400px;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+
+.aparece-poseidon {
+    opacity: 0;
+    transition: 2s;
+}
+
+.aparece-poseidon.visible{
+    opacity: 1;
+}
+
+.aparece-zeus {
+    opacity: 0;
+    transition: 3s;
+}
+
+.aparece-zeus.visible{
+    opacity: 1;
+}
+
+.aparece-hades {
+    opacity: 0;
+    transition: 3s;
+}
+
+.aparece-hades.visible{
+    opacity: 1;
+}
+
+.aparece-demeter {
+    opacity: 0;
+    transition: 3s;
+}
+
+.aparece-demeter.visible{
+    opacity: 1;
+}
+
+.aparece-hestia {
+    opacity: 0;
+    transition: 3s;
+}
+
+.aparece-hestia.visible{
+    opacity: 1;
+}
+
+.aparece-hera {
+    opacity: 0;
+    transition: 3s;
+}
+
+.aparece-hera.visible{
+    opacity: 1;
+}
+
+.cambio-background {
+    .cambio-background {
+        height: 300px;
+        transition: all 1s 1s;
+        line-height: 300px;
+        text-align: center;
+        font-size: 50px;
+        color: aliceblue;
+    }
+
+}
+.cambio-background {
+transition: 1s;
+}
+
+.cambio-background.visible {
+    background-color: #ac2828;
+}
+
+
+
+.foto-1-poseidon img {
+    transition: all 1s;
+    transform: translate(1500px, 0);
+}
+
+.foto-1-poseidon.visible img {
+    transform: translate(0px, 0);
+}
+
+.foto-2-poseidon img {
+    transition: all 1s;
+    transform: translate(-1500px, 0);
+}
+
+.foto-2-poseidon.visible img {
+    transform: translate(0px, 0);
+    width: 100%;
+}
+
+.foto-1-zeus img {
+    transition: all 1s;
+    transform: translate(-1500px, 0);
+}
+
+.foto-1-zeus.visible img {
+    transform: translate(0px, 0);
+}
+
+.foto-2-zeus img {
+    transition: all 1s;
+    transform: translate(1500px, 0);
+}
+
+.foto-2-zeus.visible img {
+    transform: translate(0px, 0);
+    width: 100%;
+}
+
+.foto-1-hades img {
+    transition: all 1s;
+    transform: translate(1500px, 0);
+}
+
+.foto-1-hades.visible img {
+    transform: translate(0px, 0);
+}
+
+.foto-2-hades img {
+    transition: all 1s;
+    transform: translate(-1500px, 0);
+}
+
+.foto-2-hades.visible img {
+    transform: translate(0px, 0);
+    width: 100%;
+}
+
+.foto-1-demeter img {
+    transition: all 1s;
+    transform: translate(1500px, 0);
+}
+
+.foto-1-demeter.visible img {
+    transform: translate(0px, 0);
+}
+
+.foto-2-demeter img {
+    transition: all 1s;
+    transform: translate(-1500px, 0);
+}
+
+.foto-2-demeter.visible img {
+    transform: translate(0px, 0);
+    width: 100%;
+}
+
+.foto-1-hestia img {
+    transition: all 1s;
+    transform: translate(1500px, 0);
+}
+
+.foto-1-hestia.visible img {
+    transform: translate(0px, 0);
+}
+
+.foto-2-hestia img {
+    transition: all 1s;
+    transform: translate(-1500px, 0);
+}
+
+.foto-2-hestia.visible img {
+    transform: translate(0px, 0);
+    width: 100%;
+}
+
+.foto-1-hera img {
+    transition: all 1s;
+    transform: translate(1500px, 0);
+}
+
+.foto-1-hera.visible img {
+    transform: translate(0px, 0);
+}
+
+.foto-2-hera img {
+    transition: all 1s;
+    transform: translate(-1500px, 0);
+}
+
+.foto-2-hera.visible img {
+    transform: translate(0px, 0);
+    width: 100%;
+}
+
+.foto-final img {
+    transition: all 1s;
+}
+
+.foto-final.visible img {
+    transform: rotate(20deg);
+    width: 100%;
+}
+
+
+.video-link img {
+    width: 300px;
+    
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.video-link img:hover {
+    transform: scale(1.1); 
+    
+}
+
+
+
+    
+    
+    
+
+
+
+
+

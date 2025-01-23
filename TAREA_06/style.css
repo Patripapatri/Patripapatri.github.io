@@ -19,11 +19,11 @@ a {
     align-items: center;
     padding: 0rem 2rem;
     background-color: #D14C95;
-    position: fixed; /* Hace que el encabezado sea fijo */
-    top: 0; /* Se asegura de que esté pegado a la parte superior */
-    width: 100%; /* Ocupa todo el ancho de la pantalla */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: añade una sombra para separar el encabezado del contenido */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .logo-container img {
@@ -90,7 +90,7 @@ a {
     z-index: 1;
 }
 
-/* About Section */
+
 .about-section {
     display: flex;
     align-items: center;
@@ -119,7 +119,7 @@ a {
     border-radius: 8px;
 }
 
-/* Tickets Section */
+
 .tickets-section {
     background-color: #ffe4ec;
     padding: 3rem 2rem;
@@ -167,7 +167,6 @@ a {
     background-color: #d14c75;
 }
 
-/* Invitados Section */
 .invitados-section {
     background-color: #ffffff;
     padding: 3rem 2rem;
@@ -204,7 +203,7 @@ a {
     margin: 0;
 }
 
-/* Footer */
+
 footer {
     background-color: #d14c95;
     color: white;
@@ -222,11 +221,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    flex-wrap: wrap; /* Permite que las columnas se adapten en pantallas más pequeñas */
+    flex-wrap: wrap; 
 }
 
 .column {
-    max-width: 00px; /* Define un ancho máximo para las imágenes */
+    max-width: 00px; 
     text-align: center;
 }
 
@@ -237,7 +236,7 @@ footer {
 }
 
 .column img:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+    transform: scale(1.05); 
 }
 
 
@@ -268,9 +267,9 @@ footer {
   color: #fff;
 }
 
-/* Merchandising Section */
+
 .merchandising-section {
-    background-color: #ffe4ec; /* Fondo rosa suave */
+    background-color: #ffe4ec; 
     padding: 3rem 2rem;
     text-align: center;
 }
@@ -297,7 +296,7 @@ footer {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 1rem;
-    max-width: 400px; /* Opcional: ajusta el tamaño máximo */
+    max-width: 400px; 
 }
 
 .merch-item p {
@@ -326,7 +325,7 @@ footer {
 }
 
 .social-section {
-    background-color: #d14c95; /* Fondo rosa suave */
+    background-color: #d14c95;
     padding: 1rem 1rem;
     text-align: center;
 }
@@ -335,18 +334,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem; /* Espacio entre las columnas */
-    flex-wrap: wrap; /* Permite adaptar las columnas en pantallas pequeñas */
+    gap: 2rem; 
+    flex-wrap: wrap; 
 }
 
 .social-item {
     text-align: center;
-    flex: 1; /* Todas las columnas tienen el mismo ancho */
-    max-width: 150px; /* Tamaño máximo de cada columna */
+    flex: 1; 
+    max-width: 150px; 
 }
 
 .social-item img {
-    width: 200px; /* Ajusta el tamaño de los iconos */
+    width: 200px; 
     height: 80px;
     object-fit: contain;
     margin-bottom: 0.5rem;
@@ -354,7 +353,7 @@ footer {
 
 .social-item p {
     font-size: 1rem;
-    color: #D14C95; /* Color del texto */
+    color: #D14C95; 
     margin: 0;
     font-weight: bold;
 }
